@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body 
+{
+  font-family : 'Oregano', cursive;
+  background-color : #A64AC9;
+  font-size : 125%;
+}
+
+img 
+{
+  width : 75%;
+  height : auto;
+  border-radius : 50%;
+}
+
+span
+{
+  color : black;
+  text-shadow : 2px 0 0 #fff, -2px 0 0 #fff;
+}
+
+hr
+{
+  margin-top : 4%;
+  border-top : 3px double #FCCD04;
+}
+
+.head
+{
+  padding : 1%;
+  text-align : center;
+  color : #F5E6CC;
+  text-shadow : 2px 0 0 #000, -2px 0 0 #000, -1px 0 0 #000, -1px 0 0 #000;
+  font-family : 'Architects Daughter', cursive;
+  font-weight : bold;
+}
+
+.jumbotron 
+{
+  margin : 2.5%;
+  padding : 2.5%;
+  background-color : #FCCD04;
+}
+
+@media screen and (max-width: 991px) {
+  hr {
+    margin-top : 10%;
+  }
+  
+  .jumbotron {
+    padding : 5%;
+  }
+
+  .head {
+    padding : 5%;
+  }
+}
+
+.card
+{
+  background-image : linear-gradient(to bottom right, #17EDE0, white);
+}
+
+.detailed
+{
+  border-style : solid;
+  text-align : center;
+  background-color : #FFB48F;
+}
+
+.flex-container 
+{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : center;
+}
+
+.adjust
+{
+  width : 35%;
+  height : auto;
+  border : 5px solid #A64AC9;
+}
